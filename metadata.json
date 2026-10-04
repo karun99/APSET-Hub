@@ -1,0 +1,8 @@
+{
+  "name": "APSET Hub",
+  "description": "A comprehensive informational portal for the Andhra Pradesh State Eligibility Test (APSET), featuring real-time updates and an AI-powered assistant for candidate queries.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
