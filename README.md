@@ -40,3 +40,18 @@ python3 -m unittest discover -s tests -p "test_mcp_server.py" -v
 ## License
 
 MIT (see [LICENSE](LICENSE)) unless noted otherwise.
+
+
+## Quick start & testing
+
+```bash
+# run the apset-hub
+npm install
+npm run dev
+
+# verify the MCP server speaks the protocol
+python3 -m unittest discover -s tests -p "test_mcp_server.py" -v
+```
+
+See [docs/MCP.md](docs/MCP.md) for the exposed tools. All files were generated
+(and the application hardened) by the TRL rollout in `mcp-server/`.
