@@ -1,0 +1,20 @@
+{
+  "app": {
+    "name": "apset-hub",
+    "version": "0.0.0",
+    "description": "APSET exam preparation hub \u2014 study material, mock tests, and analytics"
+  },
+  "stack": "node",
+  "routes": [],
+  "pages": [],
+  "base_url": "http://localhost:3000",
+  "module": null,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "server": "mcp-server/server.mjs",
+  "runner": "node",
+  "runner_cmd": "node"
+}
